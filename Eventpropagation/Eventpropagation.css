@@ -1,0 +1,37 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.div2 {
+    margin-top: 100px;
+    border: solid 2px lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    max-width: 50%;
+}
+
+.div1 {
+    border: solid 2px lightseagreen;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#btn {
+    padding: 20px 40px;
+    border: solid 2px lightgreen;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#btn:hover {
+    background-color: lightgreen;
+    border-color: lightsalmon;
+}
